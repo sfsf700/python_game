@@ -23,9 +23,9 @@ def Sqlqueen():
 scriptman = 300
 
     
-for enemy in enemies: #{"エンダードラゴン": 300, "ウォーデン": 500, "スケルトン": 50, "ピグリン": 80}
+for enemy in enemies: 
  
-    scriptman -= attack(enemy) # 200 - 50(ランダム) 
+    scriptman -= attack(enemy)
 
     if scriptman < 0:
         print("スクリプトマンは倒れた・・・")
